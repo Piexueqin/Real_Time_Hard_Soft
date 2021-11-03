@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<calibration>
+    <robot configuration="1" name="101" num_of_links="6"  dh_type="mdh">
+        <!-- 关节的三种运动模式joint_type=fixed,rotatation,translation -->
+        <link name="link0" id="0" joint_type="0">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link1" id="1" joint_type="1">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link2" id="2" joint_type="1">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link3" id="3" joint_type="1">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link4" id="4" joint_type="1">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link5" id="5" joint_type="1">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <link name="link6" id="6" joint_type="6">
+            <offset>
+                <!-- 运动学标定补偿值 -->
+                <theta_zero value="0.0" />
+                <a_zero value="0.00" />
+                <d_zero value="0.00" />
+                <ratio_zero value="0.00" />
+            </offset>
+        </link>
+        <tcp_calibration num="2">
+            <tcp name="tcp1" id="1">
+                <matrix r11="1.0" r12="1.0" r13="0.0" r21="0.0" r22="0.0" r23="0.0" r31="0.0" r32="0.0" r33="0.0" x="0.0" y="0.0" z="0.0" />
+            </tcp>
+            <tcp name="tcp2" id="2">
+                <matrix r11="3.0" r12="2.0" r13="0.0" r21="0.0" r22="0.0" r23="0.0" r31="0.0" r32="0.0" r33="0.0" x="0.0" y="0.0" z="0.0" />
+            </tcp>
+        </tcp_calibration>
+        <user_coordinate_calibration num="2">
+            <user_coordinate name="uc1" id="1">
+                <matrix r11="0.0" r12="1.0" r13="0.0" r21="0.0" r22="0.0" r23="0.0" r31="0.0" r32="0.0" r33="0.0" x="0.0" y="0.0" z="0.0" />
+            </user_coordinate>
+            <user_coordinate name="uc2" id="2">
+                <matrix r11="0.0" r12="2.0" r13="0.0" r21="0.0" r22="0.0" r23="0.0" r31="0.0" r32="0.0" r33="0.0" x="0.0" y="0.0" z="0.0" />
+            </user_coordinate>
+        </user_coordinate_calibration>
+    </robot>
+</calibration>

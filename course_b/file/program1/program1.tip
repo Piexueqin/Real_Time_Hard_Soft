@@ -1,0 +1,12 @@
+PROC main()
+    MOVABSJ P1_ToJointPoint,v10_Speed,z0_Zone,tool0_Tool,wobj1_Wobj
+    DELAY D1_Delay
+    MOVABSJ P2_ToJointPoint,v10_Speed,z0_Zone,tool0_Tool,wobj1_Wobj
+    DELAY D1_Delay
+    MOVABSJ P3_ToJointPoint,v10_Speed,z0_Zone,tool0_Tool,wobj1_Wobj
+    DELAY D1_Delay
+    MOVABSJ P4_ToJointPoint,v10_Speed,z0_Zone,tool0_Tool,wobj1_Wobj
+    DELAY D1_Delay
+    MOVABSJ P5_ToJointPoint,v10_Speed,z0_Zone,tool0_Tool,wobj1_Wobj
+    DELAY D1_Delay
+ENDPROC

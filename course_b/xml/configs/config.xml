@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <robot_param configuration="puma" num_of_links="6" num_of_tools="2" num_of_wobjs="3" num_of_users="3" num_of_trajs="3" name_of_robot="US0805A" dh_type="0">
+        <link_param name="link1" id="1" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <link_param name="link2" id="2" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <link_param name="link3" id="3" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <link_param name="link4" id="4" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <link_param name="link5" id="5" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <link_param name="link6" id="6" joint_type="0">
+                        <dh alpha="100" theta="100" a="0" d="0" offset="90"/>
+                        <pos_limit min="-120" max="120"/>
+                        <vel_limit min="-120" max="120"/>
+                        <acc_limit min="-120" max="120"/>
+                        <jerk_limit min="-120" max="120"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3" iyy="4" iyz="5" izz="6"/>
+        </link_param>
+        <tool_param name="tool1" id="1">
+                        <robhold value="1"/>
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3"/>
+                </tool_param>
+                <tool_param name="tool2" id="2">
+                        <robhold value="1"/>
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+                        <mass value="10"/>
+                        <cog x="1" y="2" z="3"/>
+                        <inertia ixx="1" ixy="2" ixz="3"/>
+        </tool_param>
+        <wobj_param name="wobj1" id="1">
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+                </wobj_param>
+                <wobj_param name="wobj2" id="2">
+                                <pos x="1" y="2" z="3"/>
+                                <orient u="1" v="2" w="3"/>
+                </wobj_param>
+                <wobj_param name="wobj3" id="3">
+                                <pos x="1" y="2" z="3"/>
+                                <orient u="1" v="2" w="3"/>
+        </wobj_param>
+                <user_param name="uf01" id="1">
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+                </user_param>
+                <user_param name="uf02" id="2">
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+                </user_param>
+                <user_param name="uf03" id="3">
+                        <pos x="1" y="2" z="3"/>
+                        <orient u="1" v="2" w="3"/>
+        </user_param>
+                <traj_param type="0">
+                        <vel_max value="100"/>
+                        <acc_max value="100"/>
+                        <jerk_max value="100"/>
+                        <Ta value="100"/>
+                        <Tj value="100"/>
+                </traj_param>
+                <traj_param type="1">
+                        <vel_max value="100"/>
+                        <acc_max value="100"/>
+                        <jerk_max value="100"/>
+                        <Ta value="100"/>
+                        <Tj value="100"/>
+                </traj_param>
+                <traj_param type="2">
+                        <vel_max value="100"/>
+                        <acc_max value="100"/>
+                        <jerk_max value="100"/>
+                        <Ta value="100"/>
+                        <Tj value="100"/>
+        </traj_param>
+    </robot_param>
+    <servo_param num_of_servos="6" bus_type="0" period="1000">
+        <servo>
+            <name value="servo01"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+        <servo>
+            <name value="servo02"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+        <servo>
+            <name value="servo03"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+        <servo>
+            <name value="servo04"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+        <servo>
+            <name value="servo05"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+        <servo>
+            <name value="servo06"/>
+            <dev_id value="0"/>
+            <link_id value="0"/>
+            <run_mode value="0"/>
+            <pos_limit min="-100" max="100"/>
+            <ratio value="1"/>
+            <encoder_bits value="23"/>
+        </servo>
+    </servo_param>
+    <aux_param num_of_auxs="2">
+        <aux>
+            <name value="aux01"/>
+            <type value="1"/>
+            <ratio value="50"/>
+            <bus_id value="7"/>
+            <pos_limit min="-100" max="100"/>
+            <vel_limit min="-100" max="100"/>
+            <acc_limit min="-100" max="100"/>
+            <jerk_limit min="-100" max="100"/>
+        </aux>
+                <aux>
+            <name value="aux02"/>
+            <type value="1"/>
+            <ratio value="50"/>
+            <bus_id value="7"/>
+            <pos_limit min="-100" max="100"/>
+            <vel_limit min="-100" max="100"/>
+            <acc_limit min="-100" max="100"/>
+            <jerk_limit min="-100" max="100"/>
+        </aux>
+    </aux_param>
+</config>
